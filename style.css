@@ -1,0 +1,405 @@
+
+body{
+    background-image: url("./assets/bg3.jpg");
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: #f2f2f2;
+    font-family: sans-serif;
+}
+
+
+
+.mmt-logo > img {
+    width: 15rem;
+}
+
+.icon > img{
+    width: 3rem;
+    padding-right: 12px;
+}
+
+.header-flex{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    
+}
+
+.nav-flex-container{
+    display: flex;
+    gap: 20px;
+    width: 1550px;
+    justify-content: flex-end;
+    flex-shrink: 0;
+}
+
+.mmt-logo{
+    justify-self: flex-start;
+}
+
+.nav-button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.text > p{
+    padding: 0;
+    margin: 0;
+    color: white;
+} 
+
+.navigation{
+    background-color: white;
+    width: 1350px;
+    margin: 0 auto;
+    padding: 10px 50px 30px 50px;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px #d6d5d5;
+}
+
+.navigation img {
+    width: 75%;
+    padding-bottom: 10px;
+}
+
+.navigation > * {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    position: relative;
+}
+
+.navigation .text{
+    position: absolute;
+    top: 70px;
+    font-size: large;
+}
+
+.flights-bar{
+    
+    
+    background-color: white;
+    width: 1600px;
+    margin: 70px auto;
+ 
+}
+
+.flights-container{
+    padding: 8rem 3rem 2rem 3rem;
+
+}
+
+.flights-container > .pre-button-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flights-container > .pre-button-bar > div {
+    display: flex;
+    gap: 20px;
+}
+
+.flights-container > .pre-button-bar p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.ticket-detail {
+    margin: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    border: 1px solid rgb(196, 195, 195);
+    border-radius: 10px;
+}
+
+.ticket-detail > *  {
+    padding: 1rem 2rem;
+    border-right: 1px solid rgb(196, 195, 195);
+    
+}
+
+.ticket-from{
+    width: 17.5%;
+}
+
+.ticket-to{
+    width: 17.5%;
+}
+
+.ticket-on{
+    width: 10%;
+}
+
+.ticket-return{
+    width: 10%;
+}
+
+.circle-button{
+    height: 10px;
+    width: 10px;
+    border: 2px solid;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.special-fare{
+    display: flex;
+    gap: 20px;
+}
+
+.special-fare p{
+    padding: 0;
+    margin: 0;
+}
+
+.special-fare h3{
+    padding: 0;
+    margin: 0;
+}
+
+.special-fare > div {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(196, 195, 195);
+    border-radius: 10px;
+}
+
+.search-button{
+    width: fit-content;
+    background-image: linear-gradient(to right, #51b0fd,#075cf3);
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    padding: 0.8rem 5rem;
+    position: absolute;
+    left: 50%;
+    margin-top: 0.5rem;
+    transform: translate(-50%);
+    border-radius: 10px;
+}
+
+.explore-more{
+    
+    background-color: white;
+
+    border-radius: 50px;
+    width: 1100px; 
+    margin: 2rem auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+
+    box-shadow: 3px 3px 20px #d6d5d5;
+
+}
+
+.explore-more > button {
+    display: flex;
+    background-color: white;
+    border: none;
+    border-right: 1px solid grey;
+    
+    align-items: center;
+    justify-content: center;
+
+}
+
+.explore-more img{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.offers-container{
+    background-color: white;
+    width: 1550px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px #d6d5d5;
+
+}
+
+.offers-header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.offers-grid-container{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 300px 300px;
+    gap: 37px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-upper{
+    display: flex;
+}
+
+.card{
+    padding: 1rem 2rem;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px #d6d5d5;
+}
+
+.card img {
+    margin-right: 1rem;
+    border-radius: 10px;
+}
+
+.flagship-hotels{
+    display: flex;
+    width: 1550px;
+    background-image: linear-gradient(to right, #c9dff6, white);
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px #d6d5d5;
+    margin: 50px auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flagship-hotels img {
+    height: 180px;
+    width: 328px;
+    border-radius: 10px;
+}
+
+.flagship-card{
+    display: flex;
+    gap: 10px;
+    padding: 3rem 3rem 3rem 2rem;
+}
+
+.flagship-hotel-img{
+    position: relative;
+}
+
+.gradient-overlay{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(#00000000 50%, #000000);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+}
+
+ .flagship-text{
+    position: absolute;
+    bottom: -5px;
+    left: 10px;
+    color: white;
+    font-size: small;
+    
+}
+
+
+
+.handpicked-collections{
+    width: 1550px;
+    background-color: white;
+    box-shadow: 3px 3px 20px #d6d5d5;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.collection-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collection-tile{
+    display: flex;
+    /* grid-template-columns: repeat(5, 15%);
+    grid-template-rows: 300px; */
+    gap: 15px;
+    padding-bottom: 2rem;
+    
+    
+
+}
+
+.collection-tile > * {
+    
+    position: relative;
+}
+
+.collection-tile img{
+    height: 350px;
+    width: 270px;
+    border-radius: 10px;
+}
+
+.extra-info{
+    width: 1550px;
+    margin: 1rem auto;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.extra-info p{
+    color: rgb(145, 140, 140);
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    align-items: center;
+    width: 100vw;
+}
+
+footer > div{
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.contact-us{
+    display: flex;
+    gap: 20px;
+}
+
+footer img{
+    height: 50px;
+    width: 50px;
+}
+
+footer{
+    text-align: right;
+    color: white;
+}
+
+footer p{
+    margin: 0;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
